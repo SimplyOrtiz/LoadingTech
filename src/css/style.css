@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+.dark-mode{
+    transition: 1s;
+    --bg-color: #535C91;
+    --sidenav-bg: #49454F;
+    --sidenav-text-color: #bcb5c28c;
+    --sidenav-hover-text-color: #E7E0EC;
+    --text-color: #000000;
+    --current-icon: url('../res/images/Icons/sun.svg');
+}
+
+.light-mode{
+    transition: 1s;
+    --bg-color: #535C91;
+    --sidenav-bg: #508C9B;
+    --sidenav-text-color: #bcb5c28c;
+    --sidenav-hover-text-color: #E7E0EC;
+    --text-color: #EEEEEE;
+    --current-icon: url('../res/images/Icons/Moon.svg');
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+
+    height: 100%;
+    width: 5rem;
+    gap: 75px;
+
+    background-color: var(--sidenav-bg);
+}
+
+.nav-button{
+    align-self: center;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+
+    text-align: center;
+    text-decoration: none;
+    color: var(--sidenav-text-color);
+}
+
+.nav-button:hover{
+    color: var(--sidenav-hover-text-color);
+}
