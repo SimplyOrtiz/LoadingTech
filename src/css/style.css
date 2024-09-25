@@ -8,17 +8,17 @@
     --sidenav-bg: #49454F;
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
-    --text-color: #000000;
+    --text-color: #EEEEEE;
     --current-icon: url('../res/images/Icons/sun.svg');
 }
 
 .light-mode{
     transition: 1s;
-    --bg-color: #535C91;
+    --bg-color: #EEEEEE;
     --sidenav-bg: #508C9B;
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
-    --text-color: #EEEEEE;
+    --text-color: #000000;
     --current-icon: url('../res/images/Icons/Moon.svg');
 }
 
