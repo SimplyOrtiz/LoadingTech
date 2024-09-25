@@ -1,31 +1,31 @@
 var changeButton = document.getElementById("Change")
 
-var darkMode; 
+if (localStorage.getItem("darkMode") === null) {
+    localStorage.setItem('darkMode', 'true')
+}
 
-function clickHandler(){ // declare a function that updates the state
+var darkMode = localStorage.getItem('darkMode')
+
+
+function clickHandler(){
     if (darkMode == true){
-        darkMode = false
+        document.body.classList.remove('dark-mode')
+        document.body.classList.add('light-mode')
+
+        localStorage.setItem('darkMode', 'false')
     } else {
-        darkMode == true
+        document.body.classList.remove('light-mode')
+        document.body.classList.add('dark-mode')
+
+        localStorage.setItem('darkMode', 'true')
     }
 }
+
+localStorage.setItem('used', 'true')
 
 changeButton.addEventListener('click', clickHandler);
 
-/*
-window.onload = function(){
-    if(localStorage.getItem('used') == "true"){
-        return document.getElementById("cookiefake").remove()
-    } else {
-        localStorage.setItem('used', 'false')
-    }
-}
 
-function cookieDelete(){
-    document.getElementById("cookiefake").classList.add("cookiebye")
-    setTimeout(function() {
-        document.getElementById("cookiefake").remove()
-    }, 450)
-    localStorage.setItem('used', 'true')
+window.onload = function(){
+    clickHandler()
 }
-*/
