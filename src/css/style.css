@@ -3,7 +3,7 @@
 }
 
 .dark-mode{
-    transition: 1s;
+    /*transition: 1s;*/
     --bg-color: #535C91;
     --sidenav-bg: #49454F;
     --sidenav-text-color: #bcb5c28c;
@@ -13,13 +13,17 @@
 }
 
 .light-mode{
-    transition: 1s;
+    /*transition: 1s;*/
     --bg-color: #EEEEEE;
     --sidenav-bg: #508C9B;
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #000000;
     --current-icon: url('../res/images/Icons/Moon.svg');
+}
+
+.transition{
+    transition: 1s;
 }
 
 body{
@@ -60,4 +64,53 @@ body{
 
 .nav-button:hover{
     color: var(--sidenav-hover-text-color);
+}
+
+
+#ChangeImage{
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 4rem;
+    
+}
+
+.page-content{
+    width: 90%;
+    position: fixed;
+    right: 0;
+    padding: 1rem;
+}
+
+h1, h2{
+    text-align: left;
+}
+
+
+p{
+    text-align: justify;
+}
+
+.text-box{
+    width: 20%;
+
+    background-color: #EEEEEE;
+    color: #000000;
+
+    border-radius: 1rem;
+    border: #D9D9D9 solid 0.25rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box a{
+    /*text-decoration: none;*/
+    color: #000000;
+}
+
+.text-box hr{
+    background-color: #000000;
+    border-radius: 100%;
+    margin: 10px;
 }
