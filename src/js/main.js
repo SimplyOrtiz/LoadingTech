@@ -12,7 +12,7 @@ var localdarkMode;
 function clickHandler(){
     if (localdarkMode == true){
         document.body.classList.remove('dark-mode')
-        document.body.classList.add('light-mode')
+        document.body.classList.add('light-mode','transition')
 
         localdarkMode = false
         localStorage.setItem('darkMode', false)
@@ -22,7 +22,7 @@ function clickHandler(){
         console.log(localdarkMode,"\n",darkMode);
     } else {
         document.body.classList.remove('light-mode')
-        document.body.classList.add('dark-mode')
+        document.body.classList.add('dark-mode','transition')
 
         localdarkMode = true
         localStorage.setItem('darkMode', true)
