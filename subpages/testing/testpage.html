@@ -9,6 +9,7 @@
 
     <link rel="shortcut icon" href="/src/res/images/Loading Tech.png" type="image/x-icon">
 
+    <link rel="preload" href="https://youtube.com" as="page-content" />
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/fonts.css">
 </head>
@@ -35,26 +36,26 @@
         </a>
     </div>
     <div class="page-content">
-        <div class="login-content">
-            <form action="/index.html" method="get"></form>
-            <form class="text-box" >
-                <img src="/src/res/images/Loading Tech.svg" alt="" width="128px" height="128px">
-
-                <p>Email</p>
-                <input type="text" placeholder="email@example.com">
-                <p>Senha</p>
-                <input type="current-password" placeholder="Senha">
-
-                <input type="submit" value="Entrar">
-                
-
-                <a href="">Esqueceu a senha?</a>
-                <hr style="width: 50%;">
-                <a href="">Ainda não tem conta?</a>
-            </form>
-        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusantium, distinctio, impedit nemo sint sed a deleniti natus ullam officiis ad tempora veniam! Aliquam repellat incidunt reiciendis corporis accusantium ex.</p>    
     </div>
 
+    <script>
+        var codurlstr = "aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj14dkZaam81UGdHMA==" 
+
+        function reload(page){
+            var decurlstr = atob(page);
+            window.location.replace(decurlstr)
+        }
+
+        var message = confirm("Ok ou Cancelar?")
+            if (message){
+                alert("A ilusão de uma escolha...");
+                reload(codurlstr);
+            }else{
+                window.alert("A ilusão de uma escolha...");
+                reload(codurlstr);
+        }
+    </script>
     <script src="/src/js/main.js"></script>
 </body>
 </html>
