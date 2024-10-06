@@ -1,14 +1,12 @@
 
 # Loading Tech
 
-Uma breve descrição sobre o que esse projeto faz e para quem ele é
+Loading Tech is a News Website made for our final project, it mainly contains stuff we learned through the year about computer science.
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+As of the current moment we are still finishing the site.
 
 
-## Autores
+## Authors
 
 - [@SimplyOrtiz](https://www.github.com/SimplyOrtiz)
 - [@BurunoRodri](https://github.com/BurunoRodri)
