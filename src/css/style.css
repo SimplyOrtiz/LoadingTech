@@ -9,8 +9,8 @@
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #EEEEEE;
-    --current-icon: url('../res/images/Icons/sun.svg');
-    background-image: url("../res/images/Backgrounds/endless-constellation.svg");
+    --current-icon: url('/src/res/images/Icons/sun.svg');
+    background-image: url("/src/res/images/Backgrounds/endless-constellation.svg");
 }
 
 .light-mode{
@@ -20,8 +20,8 @@
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #000000;
-    --current-icon: url('../res/images/Icons/Moon.svg');
-    background-image: url("../res/images/Backgrounds/endless-constellationL.svg");
+    --current-icon: url('/src/res/images/Icons/Moon.svg');
+    background-image: url("/src/res/images/Backgrounds/endless-constellationL.svg");
 }
 
 .transition{
