@@ -156,3 +156,7 @@ p{
     border-radius: 25px;
     z-index: 1;
 }
+
+.news-caroussel{
+    display: flex;
+}
