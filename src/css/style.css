@@ -9,8 +9,8 @@
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #EEEEEE;
-    --current-icon: url('/src/res/images/Icons/sun.svg');
-    background-image: url("/src/res/images/Backgrounds/endless-constellation.svg");
+    --current-icon: url('../res/images/Icons/sun.svg');
+    background-image: url("../res/images/Backgrounds/endless-constellation.svg");
 }
 
 .light-mode{
@@ -20,8 +20,8 @@
     --sidenav-text-color: #bcb5c28c;
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #000000;
-    --current-icon: url('/src/res/images/Icons/Moon.svg');
-    background-image: url("/src/res/images/Backgrounds/endless-constellationL.svg");
+    --current-icon: url('../res/images/Icons/Moon.svg');
+    background-image: url("../res/images/Backgrounds/endless-constellationL.svg");
 }
 
 .transition{
@@ -132,4 +132,31 @@ p{
     border: #D9D9D9 solid 0.25rem;
     border-radius: 1rem;
     padding: .5rem;
+}
+
+.news-video{
+    border-radius: 25px;
+}
+
+.news-video img{
+    position: absolute;
+}
+
+.static-thumbnail{
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.static-thumbnail:hover{
+    transition: 1s;
+    opacity: 0;
+}
+
+.animated-preview{
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.news-caroussel{
+    display: flex;
 }
