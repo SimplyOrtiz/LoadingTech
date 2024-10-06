@@ -35,6 +35,18 @@ function SiteModeHandler(){
 
 changeButton.addEventListener('click', SiteModeHandler);
 
+/* Testing Code
+function OnProfileClicked(){
+    var userOptions = document.getElementById("user-options");
+
+    if(userOptions.getAttribute("style").indexOf("display:") != -1){
+        userOptions.style.display = "none"
+    } else {
+        userOptions.style.display = "block"
+    }
+}
+*/
+
 window.onload = function(){
     document.getElementById("ChangeImage").src= "blaah";
 
