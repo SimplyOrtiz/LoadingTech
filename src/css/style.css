@@ -133,3 +133,26 @@ p{
     border-radius: 1rem;
     padding: .5rem;
 }
+
+.news-video{
+    border-radius: 25px;
+}
+
+.news-video img{
+    position: absolute;
+}
+
+.static-thumbnail{
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.static-thumbnail:hover{
+    transition: 1s;
+    opacity: 0;
+}
+
+.animated-preview{
+    border-radius: 25px;
+    z-index: 1;
+}
