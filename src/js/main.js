@@ -1,6 +1,8 @@
 var changeButton = document.getElementById("Change")
 var ChangeImage = document.getElementById("ChangeImage")
 
+var ColorMode = ["./src/res/images/Icons/Moon.svg", "./src/res/images/Icons/sun.svg"]
+
 if (localStorage.getItem("darkMode") === null) {
     localStorage.setItem('darkMode', true)
 }
@@ -17,7 +19,7 @@ function SiteModeHandler(){
         localdarkMode = false
         localStorage.setItem('darkMode', false)
 
-        ChangeImage.src = "/src/res/images/Icons/Moon.svg"
+        ChangeImage.src = ColorMode[0]
 
         console.log(localdarkMode," ",darkMode);
     } else {
@@ -27,7 +29,7 @@ function SiteModeHandler(){
         localdarkMode = true
         localStorage.setItem('darkMode', true)
 
-        ChangeImage.src = "/src/res/images/Icons/sun.svg"
+        ChangeImage.src = ColorMode[1]
 
         console.log(localdarkMode," ",darkMode);
     }
@@ -48,16 +50,16 @@ function OnProfileClicked(){
 */
 
 window.onload = function(){
-    document.getElementById("ChangeImage").src= "blaah";
+    //document.getElementById("ChangeImage").src= "blaah";
 
     if (darkMode == true){
         document.body.classList.remove('dark-mode')
         document.body.classList.add('light-mode')
-        ChangeImage.src = "/src/res/images/Icons/Moon.svg"
+        ChangeImage.src = ColorMode[1]
     } else {
         document.body.classList.remove('light-mode')
         document.body.classList.add('dark-mode')
-        ChangeImage.src = "/src/res/images/Icons/sun.svg"
+        ChangeImage.src = ColorMode[0]
     }
 
     if (darkMode == true){
