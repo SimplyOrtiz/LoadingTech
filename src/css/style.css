@@ -72,91 +72,34 @@ body{
 #ChangeImage{
     position: fixed;
     bottom: 0;
-    margin-bottom: 4rem;
-    
-}
-
-.page-content{
-    width: 90%;
-    position: fixed;
-    right: 0;
-    padding: 1rem;
-}
-
-h1, h2{
-    text-align: left;
+    margin-bottom: 4rem;   
 }
 
 
-p{
-    text-align: justify;
+.carousel-item img{
+    border-radius: 25px;
 }
 
-.text-box{
-    width: 20%;
-
-    background-color: #EEEEEE;
-    color: #000000;
-
-    border-radius: 1rem;
-    border: #D9D9D9 solid 0.25rem;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#weekly-news .row .col-sm .card{
+    background-color: #ffffffe1;    
 }
 
-.text-box a{
-    /*text-decoration: none;*/
+.card{
     color: #000000;
 }
 
-.text-box hr{
-    background-color: #000000;
-    border-radius: 100%;
-    margin: 10px;
+.carousel-item div p, .carousel-item div h5{
+    text-shadow: 0 0 4px black;
 }
 
-.user-icon{
-    position: fixed;
-    right: 0;
-    padding: 1rem;
+.card img{
+    object-fit: cover;
+}
+.album.py-5.bg-dark{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.user-icon img{
-    width: 3.5rem;
-}
-
-#user-options{
-    background: #eeeeee;
-    border: #D9D9D9 solid 0.25rem;
-    border-radius: 1rem;
-    padding: .5rem;
-}
-
-.news-video{
-    border-radius: 25px;
-}
-
-.news-video img{
-    position: absolute;
-}
-
-.static-thumbnail{
-    border-radius: 25px;
-    z-index: 2;
-}
-
-.static-thumbnail:hover{
-    transition: 1s;
-    opacity: 0;
-}
-
-.animated-preview{
-    border-radius: 25px;
-    z-index: 1;
-}
-
-.news-caroussel{
-    display: flex;
+.col-sm-auto.sticky-top{
+    background-color: var(--sidenav-bg);
 }
