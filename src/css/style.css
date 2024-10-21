@@ -70,8 +70,6 @@ body{
 
 
 #ChangeImage{
-    position: fixed;
-    bottom: 0;
     margin-bottom: 4rem;   
 }
 
@@ -95,6 +93,7 @@ body{
 .card img{
     object-fit: cover;
 }
+
 .album.py-5.bg-dark{
     margin-left: 1rem;
     margin-right: 1rem;
