@@ -12,7 +12,7 @@ var localdarkMode;
 
 
 function SiteModeHandler(){
-    if (localdarkMode == true){
+    if (localdarkMode === true){
         document.body.classList.remove('dark-mode')
         document.body.classList.add('light-mode','transition')
 
@@ -50,7 +50,7 @@ function OnProfileClicked(){
 */
 
 window.onload = function(){
-    //document.getElementById("ChangeImage").src= "blaah";
+    //document.getElementById("ChangeImage").src = "blaah";
 
     if (darkMode == true){
         document.body.classList.remove('dark-mode')
