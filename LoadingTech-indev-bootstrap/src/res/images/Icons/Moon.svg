@@ -1,9 +1,0 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
-	<title>Moon-svg</title>
-	<defs>
-		<image  width="42" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAApCAMAAAB0iUvHAAAAAXNSR0IB2cksfwAAAUdQTFRFAAAA5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+Ds5+DsQCeSnwAAAG10Uk5TAAcUsv/oUSAF4w4K/gkD+/Hf5lDgTOFB+CeIIcIzTgHXnslrBh0CHM/8gNx+7qXQI3gRT2ZSQo7nrW7Rcbk+b0fI6bpEDaDws3oWwxksgRtw9B/t/cX6uNOTWTGD1kV8hLdI73Utlb/z+eWrPWZvibIAAAI8SURBVHicjZT7S1RBFMfPybALt9ZVXNQ018euimWSGkipUEb5CsIVxB/UCPqP+jGI6LfoqUWpIUqRvZUoxLcXM2RzK/G1ollz5s7u3sfOvc0PZ+bMfOZ7z5x7ZhAMDXEf5A0NwwMIuPs/aCpXTNlxRRWhl7rlhqoY1Qd7bgEc2Y75bqgHNykGJnz4twuavs75NQDvqjPq+8VMRjgrApC54ogqFJ+6Bjk/XGM9GmZ91jLAQTfUQ5nM/gY6mrPkgOZ/Z12uxkwB448tOKBpLFH58zQu1hwjwMAis4UzNC6hDWkRKVo6l5AqmwUITkrR8mmA0q+6E6RAy77I0AqmUv5ZeJW058SEBKUMVYwLT+XVevKTHK38GHNrSFHZSnpvOHrqfdzP40VQ9U6GVr9NTByfIhvY1uxo7QfxW80snB4zYmdwbB/r3rBS/WmcrhdQzYZIm2+P6rnI9AtEa3id7FRnkRdW3Yhp1lP90o4WIC+9hmHLfMA/apkJTiJcIMVzQzYVNd10ec4Pol7RjQPJwgP/oZXsHa3pBdBxGNpMitIiAWgZZObSU35jSRaankhIXsWUI0IvPyPnz9/kMUToiWrpE09GIz9u62OpJs+Q/mZ5N8i2PbKRvNjpkYij/qp+6pSLD0wg5vJ8qV4tgQKE9K9fWR2Nh9ye8lDv74qNsYXO+7FRByIu5/VvCrfrDlhQ6Imav643JXQbbCjA1XtRK9l9yxC5aeVan/Ep7sWbxkUzytp1xFf1iM+b8YZl5R+qsJSz6qXO2AAAAABJRU5ErkJggg=="/>
-	</defs>
-	<style>
-	</style>
-	<use  href="#img1" x="4" y="4"/>
-</svg>
