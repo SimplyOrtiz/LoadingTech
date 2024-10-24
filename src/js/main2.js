@@ -1,7 +1,9 @@
 var changeButton = document.getElementById("Change");
 var ChangeImage = document.getElementById("ChangeImage");
+var changeIcon = document.getElementById("SiteLogo")
 
-var ColorMode = ["./src/res/images/Icons/Moon.svg", "./src/res/images/Icons/sun.svg"];
+var ColorMode = ["../src/res/images/Icons/Moon.svg", "../src/res/images/Icons/sun.svg"];
+var LogoColorMode = ['../res/images/Loading\ Tech.svg', '../res/images/Loading\ Tech\ \(1\).svg'];
 
 // Initialize darkMode in localStorage if it doesn't exist
 if (localStorage.getItem("darkMode") === null) {

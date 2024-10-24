@@ -10,6 +10,7 @@
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #EEEEEE;
     --current-icon: url('../res/images/Icons/sun.svg');
+    --current-logo: url('../res/images/Loading\ Tech.svg');
     background-image: url("../res/images/Backgrounds/endless-constellation.svg");
 }
 
@@ -21,6 +22,7 @@
     --sidenav-hover-text-color: #E7E0EC;
     --text-color: #000000;
     --current-icon: url('../res/images/Icons/Moon.svg');
+    --current-logo: url('../res/images/Loading\ Tech\ \(1\).svg');
     background-image: url("../res/images/Backgrounds/endless-constellationL.svg");
 }
 
@@ -70,8 +72,6 @@ body{
 
 
 #ChangeImage{
-    position: fixed;
-    bottom: 0;
     margin-bottom: 4rem;   
 }
 
@@ -95,6 +95,7 @@ body{
 .card img{
     object-fit: cover;
 }
+
 .album.py-5.bg-dark{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -102,4 +103,18 @@ body{
 
 .col-sm-auto.sticky-top{
     background-color: var(--sidenav-bg);
+}
+
+.logo{
+    width: 2rem;
+    height: 2rem;
+    position: static;
+}
+
+.form-bg{
+    /*background-color: var(--bg-color);*/
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    
 }
