@@ -142,3 +142,9 @@ body{
 .col-sm-auto.sticky-top{
     align-self: normal;
 }
+
+.text-muted{
+    right: 0;
+    position: absolute;
+    margin-right: 10px;
+}
