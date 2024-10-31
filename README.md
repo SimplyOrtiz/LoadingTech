@@ -5,6 +5,7 @@ Loading Tech is a News Website made for our final project, it mainly contains st
 
 As of the current moment we are still finishing the site.
 
+For the latest code please check [Code-Dump Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/code-dump)
 
 ## Authors
 
