@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Document</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LT - Articles</title>
+
+    <!--<link rel="stylesheet" href="../src/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="../src/css/fonts.css">
     <link rel="stylesheet" href="../src/css/style.css">
 </head>
 <body class="dark-mode">
-
 
     <div class="container-fluid">
         <div class="row">
@@ -39,7 +41,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Info">
+                            <a href="./about.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Info">
                                 <i class="bi-heart fs-1"><img src="../src/res/images/Icons/Info.svg" alt=""></i>
                             </a>
                         </li>
@@ -49,18 +51,6 @@
                             </a>
                         </li>
                     </ul>
-                    <!--
-                    <div class="dropdown">
-                        <a href="#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi-person-circle h2"><img src="./src/res/images/Icons/Moon.svg" alt=""></i>
-                        </a>
-                        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
-                            <li><a class="dropdown-item" href="#">New project...</a></li>
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                        </ul>
-                    </div>
-                    -->
                 </div>
             </div>
             <!--Page Content Start-->
@@ -68,30 +58,531 @@
                 <h1 class="my-4">Article Title</h1>
                 <p class="lead">This is a brief introduction to the article. It summarizes the main points.</p>
                 
-                <hr>
+                <div class="album py-5">
+                    <div class="container">
+                        <div class="row articles">
+                            <!-- ARTICLE_NAMES -->
+                            <!--Weekly News Start-->
+    
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Ciência da Computação" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
 
-                <h2>Section 1: Introduction</h2>
-                <p>This is where you can introduce the topic of the article. Provide background information and context.</p>
+                            <h4 class="card-text">Ciência da Computação</h4>
+                            <p class="card-text">A Ciência da Computação estuda técnicas e metodologias para processamento de dados e desenvolvimento de software, abrangendo modelagem, bancos de dados e telecomunicações.</p>
 
-                <h2>Section 2: Main Content</h2>
-                <p>Here you can delve into the details of your article. Use headings, paragraphs, and lists to organize the content effectively.</p>
-                
-                <ul>
-                    <li>Point 1</li>
-                    <li>Point 2</li>
-                    <li>Point 3</li>
-                </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('ciencia_da_computacao')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">3 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Algoritimos" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
 
-                <h2>Section 3: Conclusion</h2>
-                <p>Summarize the key points made in the article and provide any final thoughts or calls to action.</p>
+                            <h4 class="card-text">Algoritimos</h4>
+                            <p class="card-text">Algoritmos são sequências finitas e precisas de instruções para resolver problemas, processando dados para gerar resultados eficientes e corretos.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('algoritimos')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">29 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Trabalho Teórico" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Trabalho Teórico</h4>
+                            <p class="card-text">A fundamentação teórica sustenta a pesquisa, guiando métodos e revisões, validando teorias e garantindo qualidade científica e técnica.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('trabalho_teorico')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">14 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Engenho Analítico" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Engenho Analítico</h4>
+                            <p class="card-text">Charles Babbage projetou a máquina analítica em 1837, um protótipo de computador moderno capaz de realizar cálculos complexos automaticamente.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('engenho_analitico')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">5 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Domínios" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Domínios</h4>
+                            <p class="card-text">Domínios são endereços virtuais únicos que permitem aos usuários localizar sites sem memorizar endereços IP, conectando-os a servidores.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('dominios')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">3 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Compiladores e Repetidores" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Compiladores e Repetidores</h4>
+                            <p class="card-text">Compiladores traduzem programas para linguagem de máquina, enquanto repetidores Wi-Fi ampliam a cobertura de sinal para áreas maiores.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('compiladores_e_repetidores')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">2 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Hexadecimal" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Hexadecimal</h4>
+                            <p class="card-text">O sistema hexadecimal, de base 16, representa valores com dígitos 0-9 e letras A-F, simplificando a representação binária na informática.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('hexadecimal')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">16 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Binário" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Binário</h4>
+                            <p class="card-text">O sistema binário, de base 2, utiliza os dígitos 0 e 1 para representar dados, essencial na computação para processar informações.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('binario')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">10 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Octadecímal" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Octadecímal</h4>
+                            <p class="card-text">O sistema octal, de base 8, representa valores com oito dígitos (0-7), usado para simplificar binários em máquinas de computação antigas.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('octadecimal')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">8 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="HTML" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">HTML</h4>
+                            <p class="card-text">HTML (HyperText Markup Language) estrutura o conteúdo básico de sites, permitindo organizar e formatar informações, integrando CSS e JavaScript para aparência e funcionalidade.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('html')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">23 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="CSS" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">CSS</h4>
+                            <p class="card-text">CSS (Cascading Style Sheets) define a aparência de páginas HTML, separando conteúdo e estilo visual para facilitar a formatação estética em várias mídias.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('css')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">5 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="JavaScript" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">JavaScript</h4>
+                            <p class="card-text">JavaScript é uma linguagem de programação que adiciona funcionalidades interativas a sites, como atualização dinâmica, mapas interativos e gráficos animados.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('javascript')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">4 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="LAN" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">LAN</h4>
+                            <p class="card-text">LAN (Local Area Network) é uma rede local, limitada a uma pequena área, como residências ou empresas, para troca de dados entre dispositivos.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('lan')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">1 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="WAN" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">WAN</h4>
+                            <p class="card-text">WAN (Wide Area Network) conecta grandes áreas geográficas, permitindo comunicação rápida entre empresas, surgindo da necessidade de troca eficiente de informações.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('wan')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">2 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Arduino" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Arduino</h4>
+                            <p class="card-text">Arduino é uma plataforma acessível para criar projetos eletrônicos, facilitando automação e desenvolvimento tecnológico com hardware e software integrados.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('arduino')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">11 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Programação" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Programação</h4>
+                            <p class="card-text">Programação é o processo de criar, testar e manter software, utilizando diversas linguagens para diferentes finalidades e paradigmas.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('programacao')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">31 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Sistemas Operacionais" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Sistemas Operacionais</h4>
+                            <p class="card-text">Um sistema operacional gerencia hardware, coordena recursos e permite a execução de programas, facilitando a interação do usuário com o computador.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('sistemas_operacionais')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">7 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Inteligência Artificial" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Inteligência Artificial</h4>
+                            <p class="card-text">Inteligência artificial (IA) é a capacidade de máquinas reproduzirem habilidades humanas, como raciocínio, aprendizagem e criatividade.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('inteligencia_artificial')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">16 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Interação Humano-Computador" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Interação Humano-Computador</h4>
+                            <p class="card-text">Interação Humano-Computador (IHC) estuda como melhorar a comunicação entre usuários e máquinas, focando em usabilidade e experiência do usuário.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('interacao_humano_computador')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">22 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Engenharia de Software" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Engenharia de Software</h4>
+                            <p class="card-text">Engenharia de Software desenvolve e gerencia sistemas informatizados, garantindo qualidade e eficiência em todas as fases do ciclo de vida do software.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('engenharia_de_software')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">27 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Computação Gráfica" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Computação Gráfica</h4>
+                            <p class="card-text">Computação Gráfica estuda a manipulação de dados visuais e geométricos, aplicada em animações, edição de imagens, e modelagem 3D.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('computacao_grafica')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">4 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Redes de Computadores" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Redes de Computadores</h4>
+                            <p class="card-text">Redes de computadores conectam dispositivos para troca de dados e compartilhamento de recursos, utilizando protocolos de comunicação em links físicos ou sem fio.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('redes_de_computadores')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">4 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Teoria da Computação" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Teoria da Computação</h4>
+                            <p class="card-text">A teoria da computação estuda quais problemas podem ser computados em modelos específicos, usando algoritmos para resolver funções. Ela começou no século XX, explorando conceitos como a Máquina de Turing e métodos efetivos.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('teoria_da_computacao')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">1 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Responsividade" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Responsividade</h4>
+                            <p class="card-text">Responsividade refere-se à capacidade de atender às necessidades dos usuários, respeitando sua autonomia e dignidade. Em software, é crucial para uma boa experiência do usuário e competitividade no mercado.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('responsividade')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">6 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Adaptabilidade" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Adaptabilidade</h4>
+                            <p class="card-text">Adaptabilidade é a capacidade de se ajustar a novos cenários e transformações. Em redes de computadores, envolve flexibilidade e aprendizado para enfrentar desafios e resolver problemas de forma eficiente.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('adaptabilidade')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">15 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Computação Quântica" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Computação Quântica</h4>
+                            <p class="card-text">Computação quântica usa princípios da mecânica quântica para resolver problemas complexos mais rapidamente que computadores tradicionais.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('computacao_quantica')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">12 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Cabos de Rede" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Cabos de Rede</h4>
+                            <p class="card-text">Cabos de rede conectam dispositivos em uma rede, permitindo compartilhamento de recursos. Tipos incluem coaxial, fibra óptica e par trançado.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('cabos_de_rede')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">8 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 card-news">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="../../src/res/images/NewsImages/Temmmmm.png" alt="Metodologias Ágeis" src="../../src/res/images/NewsImages/Temmmmm.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+
+                            <h4 class="card-text">Metodologias Ágeis</h4>
+                            <p class="card-text">Metodologias ágeis aceleram projetos com flexibilidade e colaboração, permitindo ajustes contínuos e entrega rápida de valor ao cliente.</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" id="ArticleGoto" onclick="goToArticle('metodologias_ageis')" class="btn btn-sm btn-outline-secondary">Ler Mais</button>
+                                </div>
+                                <small class="text-muted">4 de Outubro de 2024</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                        </div>                        
+                    </div>
+                </div>
             </div>
             <!--Page Content End-->
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!--<script src="../src/js/jquery.slim.min.js"></script>
+    <script src="../src/js/bootstrap.bundle.min.js"></script>-->
 
+    <script src="../src/js/jquery.slim.min.js"></script>
+    <script src="../src/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../src/js/article.js"></script>
     <script src="../src/js/buttons.js"></script>
     <script src="../src/js/main2.js"></script>
 </body>

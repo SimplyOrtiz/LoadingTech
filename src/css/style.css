@@ -118,3 +118,34 @@ body{
     border-radius: 2rem;
     
 }
+
+.card-news{
+    padding: 0;
+    border: var(--sidenav-bg) solid 2px;
+}
+
+.card-news .card.mb-4.box-shadow{
+    margin-bottom: 0!important;
+}
+
+.album.py-5 .container .row.articles{
+    align-items: center;
+    align-content: stretch;
+}
+
+.album.py-5 .container .row.articles .col-md-4{
+    display: flex;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.col-sm-auto.sticky-top{
+    align-self: normal;
+}
+
+.d-flex.justify-content-between.align-items-center{
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+}
