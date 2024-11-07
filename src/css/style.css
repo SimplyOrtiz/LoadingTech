@@ -149,3 +149,17 @@ body{
     align-content: flex-end;
     justify-content: space-between;
 }
+
+.ModeIcon{
+    position: fixed;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+    .ModeIcon{
+        position: fixed;
+        top: 0;
+        right: 0;
+        
+    }
+}
