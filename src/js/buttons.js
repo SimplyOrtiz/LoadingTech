@@ -1,3 +1,11 @@
+function goToFile(path){
+    location.href = path
+}
+
+function NewTab(path){
+    window.open(path)
+}
+
 document.getElementById("read-more").onclick = function () {
     location.href = "./subpages/articles.html"
 }
