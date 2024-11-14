@@ -139,9 +139,11 @@ body{
     align-self: stretch;
 }
 
+/*Code that somehow fixes the side bar*/
 .col-sm-auto.sticky-top{
     align-self: normal;
 }
+/*End of the code that somehow fixes the side bar*/
 
 .d-flex.justify-content-between.align-items-center{
     display: flex !important;
