@@ -3,10 +3,11 @@
 Loading Tech is a News Website made for our final project of the year, it mainly contains stuff we learned through the year about Computer Science.
 
 This Branch is the product that was shown on the technology fair!
-This version of the website has a lot of bugs, but it won't be fixed, if you want to see the latest version we have been working check the other branches.
+This version of the website has a lot of bugs, but it won't be fixed.
 
-For the latest published code please check [Main Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/main)
-Or for indev stuff check [Indev Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/Indev)
+if you want to see the latest version we have been working check the other branches:
+For the latest version please check the [Main Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/main) 
+or for the latest code check the [Indev Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/indev)
 
 ## Authors
 
