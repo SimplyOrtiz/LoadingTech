@@ -5,8 +5,8 @@ Loading Tech is a News Website made for our final project of the year, it mainly
 This Branch is for the code that's almost ready for deploy.
 This version of the website will contain bugs, but it will be fixed before being pushed to.
 
-For the latest published code please check [Main Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/main) 
-or for the latest untested code check [Code-Dump Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/code-dump) 
+For the latest version please check the [Main Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/main) 
+or for the latest untested code check the [Code-Dump Branch](https://github.com/SimplyOrtiz/LoadingTech/tree/code-dump) 
 
 ## Authors
 
